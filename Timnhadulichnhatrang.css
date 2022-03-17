@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    /* max-width: 993px; */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font: detector;
+}
+.trai {
+    float: left;
+    padding: 10px;
+    font-size: larger;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.a_trai {
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+}
+.phai {
+    float: right;
+    padding: 10px;
+    font-size: larger;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.giua {
+    float: center;
+}
+
+.size-anh{
+    height: 440px;
+    width: 100%;
+}
+.form_img {
+    height: 350px;
+    width: 992px;
+}
+
+.auth-form{
+    margin-left: 300px;
+}
+.auth-form_p {
+    border-style: none;
+    width: 992px;
+}
+.italics-p{
+    font-style: italic;
+}
+.contentBottomImg {
+    padding-bottom: 15px
+}
+
+  .a_trai {
+            font-size: larger;
+            color: black;
+            text-decoration: none;}
+
+
+.pDuoiH1 {
+    font-size: 13px;
+    position: relative;
+    bottom: 79px;
+    left: 30px;
+    color: white;
+}
+
+.authBackgroundH1{
+    width: 993px;
+    height: 350px;
+}
+.colorBackground {
+    background-color:white;
+}
+
+
+.auth-form_body{    
+    margin-left: 330px;
+    border: none;
+    width: 992px;
+}
+@media only screen and (min-width: 992px) {
+    .nutTrenCung {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .contentBottomImg {
+        padding-bottom: 15px
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        font-family: sans-serif;
+        max-width: 769px;
+    }
+    .nutTrenCung {
+        grid-template-columns: 1fr 1fr ;
+    }
+
+.auth-form_body{
+        margin-left: 1px;
+        border: none;
+        width: 769px;
+}
+.auth-form_p {
+    border-style: none;
+    width: 769px;
+}
+.form_img {
+    height: 350px;
+    width: 769px;
+}
+}
+@media screen and (max-width: 768px){
+    body {
+        font-family: sans-serif;
+        max-width: 320px;
+}
+
+.auth-form_body{
+    margin-left: 1px;
+    border: none;
+    width: 320px;
+}
+.auth-form_p {
+    border-style: none;
+    width: 320px;}
+.form_img {
+        height: 350px;
+        width: 320px;   
+}
+.size-anh{
+    display: none;
+}
+
+}
+@media only screen and (max-width: 767px){
+    .nutTrenCung {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+}
+}

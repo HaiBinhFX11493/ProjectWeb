@@ -1,0 +1,250 @@
+body {
+    font-family: sans-serif;
+    /* max-width: 993px; */
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font: detector;
+}
+
+.trai {
+    float: left;
+    padding: 10px;
+    font-size: larger;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.a_trai {
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+}
+
+.phai {
+    float: right;
+    padding: 10px;
+    font-size: larger;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.giua {
+    float: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.left {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 243px;
+    left: 99px;
+}
+
+.spaceElement {
+    padding-bottom: 20px;
+}
+
+.chiaanh {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 33px;
+}
+
+
+.widthImg {
+    width: 360px;
+}
+
+.textBottomImg {
+    background-color: #f0f0f0;
+}
+
+.paddingContent {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.cotext {
+    max-width: 360px;
+}
+
+h1 {
+    font-family: -webkit-body;
+    font-size: 60px
+}
+
+.pDuoiH1 {
+    position: relative;
+    top: -35px
+}
+
+.colorBackground {
+    background-color: #e4e4e4;
+}
+
+.widthImgMedia768 {
+    padding-bottom: 27px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .nutTrenCung {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .contentBottomImg {
+        padding-bottom: 15px
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        font-family: sans-serif;
+        max-width: 769px;
+    }
+    .a_trai {
+        font-size: larger;
+        color: white;
+        text-decoration: none;
+    }
+    .colorBackground {
+        background-color: white;
+    }
+    .textBottomImg {
+        background-color: white;
+    }
+    .titleTopImg {
+        display: block;
+        background-color: #556270;
+        /* max-width: 769px */
+    }
+    .imgBigSize {
+        display: none
+    }
+    .left {
+        position: unset;
+        font-size: 1.5em;
+        color: black;
+        margin-right: 25px;
+        margin-left: 25px;
+        border-bottom: 1px solid;
+    }
+    .chiaanh {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 33px;
+        max-width: 663px;
+    }
+    .paddingContent {
+        grid-template-columns: 1fr;
+        grid-column-gap: 33px;
+    }
+    h1 {
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .pDuoiH1 {
+        font-size: 15px;
+        position: relative;
+        top: 0px;
+    }
+    .widthImg {
+        width: 343px;
+    }
+    .khoangCachAnhNho {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: sans-serif;
+        max-width: 320px;
+    }
+    .imgBigSize {
+        display: none
+    }
+    .titleTopImg {
+        display: block;
+        background-color: #556270;
+    }
+    .a_trai {
+        font-size: larger;
+        color: white;
+        text-decoration: none;
+    }
+    .widthImgMedia768 {
+        padding-bottom: 45px;
+    }
+    .colorBackground {
+        background-color: white;
+    }
+    .textBottomImg {
+        background-color: white;
+    }
+    .chiaanh {
+        grid-template-columns: 1fr;
+        grid-column-gap: 33px;
+    }
+    .left {
+        position: unset;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: black;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    }
+    .nutTrenCung {
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr;
+        /* align-items: center; */
+    }
+    .khoangCachAnhNho {
+        padding-bottom: 45px;
+    }
+    .trai {
+        float: left;
+        padding: 10px;
+        font-size: larger;
+        color: black;
+        font-size: 8px;
+        text-decoration: none;
+    }
+    .phai {
+        float: right;
+        padding: 10px;
+        font-size: larger;
+        color: black;
+        font-size: 8px;
+        text-decoration: none;
+    }
+    h1 {
+        font-family: sans-serif;
+    font-size: 30px;
+    }
+    .pDuoiH1 {
+    font-size: 15px;
+    position: relative;
+    top: 0px;}
+    .font_h2{
+        font-size: 30px;
+    }
+    @media only screen and (max-width: 767px){
+        .nutTrenCung {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            align-items: center;
+    }}
+    
